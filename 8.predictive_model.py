@@ -11,7 +11,7 @@ try:
     arg_df = pd.read_excel("arg_data.xlsx")    #replace these
     meta_df = pd.read_excel("metadata.xlsx")
 except FileNotFoundError:
-    print("...")
+    print("Data files not found")
     exit()
 
 
