@@ -6,7 +6,7 @@ import seaborn as sns
 from skbio.diversity.alpha import shannon
 
 try:
-    metadata = pd.read_excel('metadata.xlsx')
+    metadata = pd.read_excel('metadata.xlsx')    #replace these
     arg_data = pd.read_excel('arg_data.xlsx')
 except FileNotFoundError:
     print("Data files not found")
