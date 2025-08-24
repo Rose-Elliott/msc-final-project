@@ -7,7 +7,7 @@ try:
     arg_data = pd.read_excel("arg_data.xlsx") #replace these
     metadata = pd.read_excel("metadata.xlsx")
 except FileNotFoundError:
-    print("...")
+    print("Data files not found")
     exit()
 
 pivot = arg_data.pivot_table(
