@@ -8,7 +8,7 @@ from skbio.stats.distance import permanova
 from scipy.spatial.distance import pdist, squareform
 
 try:
-    arg_data = pd.read_excel("arg_data.xlsx")
+    arg_data = pd.read_excel("arg_data.xlsx")      #replace these
     metadata = pd.read_excel("metadata.xlsx")
 except FileNotFoundError:
     print("Data files not found")
