@@ -8,7 +8,7 @@ library(patchwork)
 library(RColorBrewer)
 
 if (!file.exists("arg_data.xlsx") || !file.exists("metadata.xlsx")) {
-  message("...")
+  message("Data files not found")
   quit(save = "no", status = 1)
 }
 
